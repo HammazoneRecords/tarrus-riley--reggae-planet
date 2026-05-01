@@ -260,7 +260,7 @@ const App: React.FC = () => {
             transition={{ duration: 1, delay: 0.2 }}
             className="flex items-center gap-3 md:gap-6 text-xs md:text-base font-mono text-[#fbbf24] tracking-[0.2em] md:tracking-[0.3em] uppercase mb-4 bg-black/40 px-6 py-2 rounded-full backdrop-blur-md border border-[#fbbf24]/20"
           >
-            <span>KINGSTON, JA</span>
+            <span>THE BRONX → JAMAICA</span>
             <span className="w-1.5 h-1.5 md:w-2 md:h-2 bg-[#10b981] rounded-full animate-pulse"/>
             <span>SINGY SINGY</span>
           </motion.div>
@@ -294,7 +294,7 @@ const App: React.FC = () => {
             transition={{ delay: 0.8, duration: 1 }}
             className="text-base md:text-2xl font-light max-w-2xl mx-auto text-white/90 leading-relaxed drop-shadow-lg px-4"
           >
-            A sonic journey through the heart of the <span className="text-[#fbbf24] font-bold">Reggae Planet</span>. Consciousness, soul, and pure Jamaican vibrations.
+            Born in The Bronx. Raised in Jamaica. Carrying the legacy of <span className="text-[#fbbf24] font-bold">Jimmy Riley</span> — and redefining it.
           </motion.p>
         </motion.div>
 
@@ -395,14 +395,14 @@ const App: React.FC = () => {
                 <GradientText text="CULTURE" className="text-5xl md:text-8xl" />
               </h2>
               <p className="text-lg md:text-xl text-gray-200 mb-8 md:mb-12 font-light leading-relaxed drop-shadow-md">
-                Born to the legendary Jimmy Riley, Tarrus Riley (Singy Singy) has redefined modern roots reggae. He doesn't just sing; he crafts experiences that bridge the gap between traditional spirituality and modern soul.
+                Born April 26, 1981 in The Bronx, New York — raised in Jamaica. Son of ska and rocksteady legend Jimmy Riley. Tarrus (Singy Singy) made his recording debut as a teenager and released his first album, <em>Challenges</em>, in 2004. Two decades on, he is one of the most decorated voices in modern reggae.
               </p>
-              
+
               <div className="space-y-6 md:space-y-8">
                 {[
-                  { icon: Mic2, title: 'Singy Singy', desc: 'The moniker that defines his effortless, melodic vocal range.' },
-                  { icon: Heart, title: 'Lovers Rock', desc: 'Bringing soul back to reggae with timeless romantic anthems.' },
-                  { icon: Globe, title: 'Global Impact', desc: 'From the hills of Jamaica to the world\'s largest stages.' },
+                  { icon: Mic2, title: 'BLAKSOIL Movement', desc: 'Bredren Living According King Selassie-I Overstanding & Iritical Livity — Rastafari roots at the core of every note.' },
+                  { icon: Heart, title: 'Billboard #1', desc: 'Love Situation (2014) — produced with Dean Fraser — became his first Billboard Reggae Albums chart-topper, described as "a true tribute to the rocksteady era".' },
+                  { icon: Globe, title: 'Global Reach', desc: 'From Reggae Sumfest to Roskilde Festival. Featured on Major Lazer\'s "Powerful" (2015). "Lighter" ft. Shenseea & Rvssian (2020) became a Caribbean anthem.' },
                 ].map((feature, i) => (
                   <div
                     key={i} 
@@ -504,11 +504,11 @@ const App: React.FC = () => {
                 SINGY<br/><span className="text-[#10b981]">COLLAB</span>
               </h2>
               <p className="text-gray-400 text-base md:text-lg font-light leading-relaxed max-w-md">
-                Artistry is a conversation. Tarrus Riley is open to authentic, conscious, and soulful musical exchanges that elevate the human vibration.
+                Tarrus has performed on stages across the Caribbean, North America, and Europe — and continues to collaborate with artists who carry real intention. Management: Riley Media Group / Juke Boxx Productions.
               </p>
               <div className="mt-8 flex items-center gap-3 text-[#fbbf24]/60 font-mono text-xs uppercase tracking-widest">
                 <Mic2 className="w-4 h-4" />
-                Musical Director: Dean Fraser
+                Musical Director: Dean Fraser · Blak Soil Band
               </div>
             </div>
 
