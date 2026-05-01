@@ -1,0 +1,8 @@
+{
+  "name": "Tarrus Riley - Reggae Planet",
+  "description": "Official immersive digital experience for Tarrus Riley - Singy Singy.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
