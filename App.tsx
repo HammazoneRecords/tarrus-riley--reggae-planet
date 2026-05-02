@@ -850,7 +850,8 @@ const App: React.FC = () => {
       <div className="fixed bottom-0 left-0 right-0 z-50 bg-amber-500/10 border-t border-amber-500/20 px-4 py-2 flex items-center justify-center gap-2">
         <Info className="w-3.5 h-3.5 text-amber-400 shrink-0" />
         <p className="text-[10px] font-mono text-amber-400/80 uppercase tracking-widest text-center">
-          Working draft — buyer assumes responsibility for clearing image &amp; likeness rights with Tarrus Riley. This site is available for purchase.
+          Working draft — buyer assumes responsibility for clearing image &amp; likeness rights with Tarrus Riley. This site is available for{' '}
+          <a href="https://mindwaveja.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-300 transition-colors">purchase</a>.
         </p>
       </div>
     </div>
