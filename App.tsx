@@ -155,7 +155,7 @@ const App: React.FC = () => {
   };
   
   if (currentPage === 'footwear') {
-    return <RileyFootwear onBack={() => setCurrentPage('main')} />;
+    return <RileyFootwear onBack={() => { setCurrentPage('main'); window.scrollTo(0, 0); }} />;
   }
 
   return (
@@ -181,7 +181,7 @@ const App: React.FC = () => {
           ))}
         </div>
         <button
-          onClick={() => setCurrentPage('footwear')}
+          onClick={() => { setCurrentPage('footwear'); window.scrollTo(0, 0); }}
           className="hidden md:inline-block border border-[#fbbf24] px-8 py-3 text-xs font-bold tracking-widest uppercase hover:bg-[#fbbf24] hover:text-black transition-all duration-300 text-[#fbbf24] cursor-pointer bg-transparent"
           data-hover="true"
         >
@@ -219,7 +219,7 @@ const App: React.FC = () => {
               </button>
             ))}
             <button
-              onClick={() => { setMobileMenuOpen(false); setCurrentPage('footwear'); }}
+              onClick={() => { setMobileMenuOpen(false); setCurrentPage('footwear'); window.scrollTo(0, 0); }}
               className="mt-4 border border-[#fbbf24] px-10 py-4 text-sm font-bold tracking-widest uppercase text-[#fbbf24] bg-transparent hover:bg-[#fbbf24] hover:text-black transition-all"
             >
               Riley Footwear
