@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion'
 import { 
   Ticket, Globe, Zap, Music, MapPin, Menu, X, Calendar, 
   Play, ChevronLeft, ChevronRight, Mic2, Disc, Heart, 
-  ShoppingBag, Mail, Sparkles, Volume2, Share2, Plus, 
+  ShoppingBag, Mail, Music2, Volume2, Share2, Plus,
   ExternalLink, Briefcase, Info, MessageSquare, Award
 } from 'lucide-react';
 import FluidBackground from './components/FluidBackground';
@@ -632,7 +632,7 @@ const App: React.FC = () => {
       {/* NEWSLETTER SECTION */}
       <section className="relative z-10 py-20 bg-gradient-to-r from-[#064e3b] to-[#142614] border-y border-white/10">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <Sparkles className="w-12 h-12 text-[#fbbf24] mx-auto mb-8 animate-pulse" />
+          <Music2 className="w-12 h-12 text-[#fbbf24] mx-auto mb-8 animate-pulse" />
           <h2 className="text-4xl md:text-6xl font-heading font-bold mb-6">JOIN THE <span className="text-[#fbbf24]">TRIBE</span></h2>
           <p className="text-gray-300 text-lg mb-10 max-w-2xl mx-auto font-light">
             Stay tuned for exclusive drops, hidden tracks, and tour announcements before the rest of the world. Pure vibrations straight to your inbox.
