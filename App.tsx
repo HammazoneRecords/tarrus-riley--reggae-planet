@@ -845,6 +845,13 @@ const App: React.FC = () => {
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* WORKING DRAFT BANNER */}
+      <div className="fixed bottom-0 left-0 right-0 z-50 bg-amber-500/10 border-t border-amber-500/20 px-4 py-2 flex items-center justify-center gap-2">
+        <p className="text-[10px] font-mono text-amber-400/80 uppercase tracking-widest text-center">
+          Working draft — buyer assumes responsibility for clearing image &amp; likeness rights with Tarrus Riley. This site is available for purchase.
+        </p>
+      </div>
     </div>
   );
 };
