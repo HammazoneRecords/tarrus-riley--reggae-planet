@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowLeft, ShoppingBag, ExternalLink, Star, Truck, Shield } from 'lucide-react';
 
@@ -42,6 +42,8 @@ const PRODUCTS = [
 ];
 
 const RileyFootwear: React.FC<RileyFootwearProps> = ({ onBack }) => {
+  useEffect(() => { window.scrollTo(0, 0); }, []);
+
   return (
     <div className="min-h-screen bg-[#0a0a08] text-white overflow-x-hidden">
 
@@ -81,7 +83,7 @@ const RileyFootwear: React.FC<RileyFootwearProps> = ({ onBack }) => {
             <p className="font-mono text-xs uppercase tracking-[0.4em] text-[#fbbf24]/60 mb-6">
               A Tarrus Riley Brand
             </p>
-            <h1 className="text-[clamp(3.5rem,12vw,9rem)] font-heading font-black leading-none mb-6 tracking-tighter">
+            <h1 className="text-[clamp(2.2rem,9vw,9rem)] font-heading font-black leading-none mb-6 tracking-tighter">
               RILEY<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fbbf24] to-[#10b981]">FOOTWEAR</span>
             </h1>

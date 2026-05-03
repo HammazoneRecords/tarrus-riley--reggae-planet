@@ -239,10 +239,12 @@ const App: React.FC = () => {
 
         {/* Hero video background */}
         <video
+          ref={(el) => { if (el) el.play().catch(() => {}); }}
           autoPlay
           muted
           loop
           playsInline
+          preload="auto"
           className="absolute inset-0 w-full h-full object-cover z-0"
           src="/images/tarrurshero.mp4"
         />
